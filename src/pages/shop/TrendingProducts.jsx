@@ -1,31 +1,36 @@
-import React, { useState } from 'react'
-import ProductCards from './ProductCards'
-import products from "../../data/products.json"
+import React, { useState } from 'react';
+import ProductCards from './ProductCards';
+import products from '../../data/products.json';
 
 const TrendingProducts = () => {
-    const [visibleProducts, setVisibleProducts] = useState(8);
-    const loadMoreProducts = () => {
-        setVisibleProducts(prevCount => prevCount + 4 )
+  const initialCount = 8;
+  const [visibleProducts, setVisibleProducts] = useState(initialCount);
+
+  const toggleProducts = () => {
+    if (visibleProducts >= products.length) {
+      setVisibleProducts(initialCount); // Show less
+    } else {
+      setVisibleProducts(prevCount => Math.min(prevCount + 4, products.length)); // Load more
     }
+  };
+
   return (
     <section className='section__container product__container'>
       <h2 className='section__header'>Trending Products</h2>
 
       {/* products card */}
       <div className='mt-12'>
-      <ProductCards products={products.slice(0, visibleProducts)}/>
+        <ProductCards products={products.slice(0, visibleProducts)} />
       </div>
 
-      {/* load more products button */}
+      {/* toggle button */}
       <div className='product__btn'>
-        {
-            visibleProducts < products.length && (
-                <button className='btn' onClick={loadMoreProducts}>Load More</button>
-            )
-        }
+        <button className='btn' onClick={toggleProducts}>
+          {visibleProducts >= products.length ? 'Show Less' : 'Load More'}
+        </button>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TrendingProducts
+export default TrendingProducts;

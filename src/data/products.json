@@ -6,7 +6,7 @@
     "description": "High-performance gaming desktop with bold ROG design and extreme cooling.",
     "price": 899.99,
     "oldPrice": 999.99,
-    "image": "/images/asus-rog-hyperion-gr701-Img.webp",
+    "image": "asus-rog-hyperion-gr701-Img.webp",
     "rating": 4.5,
     "author":"admin"
   },
@@ -17,7 +17,7 @@
     "description": "Handheld gaming console powered by Intel for portable PC gaming.",
     "price": 249.99,
     "oldPrice": 299.99,
-    "image": "/images/msi-claw-8-Img.webp",
+    "image": "msi-claw-8-Img.webp",
     "rating": 4.0
   },
   {
@@ -26,7 +26,7 @@
     "category": "Laptops",
     "description": "Ultra-slim laptop with powerful specs for work and play on the go.",
     "price": 899.99,
-    "image": "/images/hp-omnibook-ultra-flip-14-Img.webp",
+    "image": "hp-omnibook-ultra-flip-14-Img.webp",
     "rating": 5
   },
   {
@@ -35,7 +35,7 @@
     "category": "Accessories",
     "description": "Pro-grade wireless controller designed for competitive console gaming.",
     "price": 69.99,
-    "image": "/images/razer-wolverine-v3-pro-Img.webp",
+    "image": "razer-wolverine-v3-pro-Img.webp",
     "rating": 3.9
   },
   {
@@ -45,7 +45,7 @@
     "description": "Durable business laptop with workstation-grade performance and security.",
     "price": 699.99,
     "oldPrice": 799.99,
-    "image": "/images/lenovo-thinkpad-p16-Img.webp",
+    "image": "lenovo-thinkpad-p16-Img.webp",
     "rating": 4.8
   },
   {
@@ -54,7 +54,7 @@
     "category": "Accessories",
     "description": "Immersive wireless gaming headset with rich audio and 360° spatial sound.",
     "price": 39.99,
-    "image": "/images/steelseries-arctis-nova-5-wireless-Img.webp",
+    "image": "steelseries-arctis-nova-5-wireless-Img.webp",
     "rating": 4.4
   },
   {
@@ -64,7 +64,7 @@
     "description": "Portable gaming powerhouse that brings your entire Steam library on the go.",
     "price": 299.99,
     "oldPrice": 349.99,
-    "image": "/images/valve-steam-deck-Img.webp",
+    "image": "valve-steam-deck-Img.webp",
     "rating": 3.6
   },
   {
@@ -73,7 +73,7 @@
     "category": "Desktops",
     "description": "Sleek gaming desktop with vibrant RGB and high airflow design.",
     "price": 799.99,
-    "image": "/images/enermax-starryknight-sk30-v2-Img.webp",
+    "image": "enermax-starryknight-sk30-v2-Img.webp",
     "rating": 4.2
   },
   {
@@ -82,7 +82,7 @@
     "category": "Desktops",
     "description": "Stylish gaming desktop built for gamers with mesh front panel and RGB fans.",
     "price": 849.99,
-    "image": "/images/msi-mag-forge-112r-Img.webp",
+    "image": "msi-mag-forge-112r-Img.webp",
     "rating": 4.7
   },
   {
@@ -92,7 +92,7 @@
     "description": "Sleek, powerful gaming laptop with high refresh rate display and ROG performance.",
     "price": 749.99,
     "oldPrice": 849.99,
-    "image": "/images/asus-rog-zephyrus-g16-Img.webp",
+    "image": "asus-rog-zephyrus-g16-Img.webp",
     "rating": 4.3
   }
 ]
